@@ -1,14 +1,49 @@
 
-# MIN HEAP CONSTRUCTION
+# SORT K SORTED ARRAY
 
-#########################################
-# THIS DOES NOT WORK FOR TWO ELEMENTS IN THE HEAP. DO NOT USE THIS. USE THE ONE GIVEN BELOW.
-##########################################
+# O(NK) time and O(1) space
+def sortKSortedArray(array, k):
+    # Write your code here.
+    i = 0
+	while i < len(array) - k - 1:
+		minElementPos = i
+		for j in range(i, i+k+1):
+			if array[minElementPos] > array[j]:
+				minElementPos = j
+		array[i], array[minElementPos] = array[minElementPos], array[i]
+		i += 1
+	
+	while i < len(array):
+		minElementPos = i
+		for j in range(i, len(array)):
+			if array[minElementPos] > array[j]:
+				minElementPos = j
+		array[i], array[minElementPos] = array[minElementPos], array[i]
+		i += 1
+	
+	return array
+
+# O(NlogK) time and O(K) space
+def sortKSortedArray(array, k):
+    # Write your code here.
+    heap = MinHeap(array[:min(k + 1, len(array))])
+	index = 0
+	while not heap.isEmpty():
+		minElement = heap.remove()
+		array[index] = minElement
+		index += 1
+		if index + k < len(array):
+			heap.insert(array[index+k])
+		
+	return array
 
 class MinHeap:
     def __init__(self, array):
         # Do not edit the line below.
         self.heap = self.buildHeap(array)
+		
+	def isEmpty(self):
+		return len(self.heap) == 0
 
 	# O(N) time and O(1) space
     def buildHeap(self, array):
@@ -16,7 +51,6 @@ class MinHeap:
         firstParent = (len(array) - 2) // 2
 		for currentIndex in reversed(range(firstParent + 1)):
 			self.siftDown(currentIndex, array)
-			print(array)
 		return array
 
 	# O(log(n)) time and O(1) space
@@ -57,6 +91,10 @@ class MinHeap:
 	# O(log(n)) time and O(1) space
     def remove(self):
         # Write your code here.
+		if len(self.heap) < 3:
+			deletedValue = min(self.heap)
+			self.heap.remove(deletedValue)
+			return deletedValue
 		self.swap(0, len(self.heap) - 1, self.heap)
         deletedValue = self.heap.pop()
 		self.siftDown(0, self.heap)
@@ -67,10 +105,21 @@ class MinHeap:
         # Write your code here.
         self.heap.append(value)
 		self.siftUp(len(self.heap) - 1, self.heap)
+		print("Current heap: ",self.heap)
 
-############################################
-# CORRECT IMPLEMENTATION
-############################################
+# O(NlogK) time and O(K) space
+def sortKSortedArray(array, k):
+    # Write your code here.
+    heap = MinHeap(array[:min(k + 1, len(array))])
+	index = 0
+	while not heap.isEmpty():
+		minElement = heap.remove()
+		array[index] = minElement
+		index += 1
+		if index + k < len(array):
+			heap.insert(array[index+k])
+		
+	return array
 
 class MinHeap:
 	def __init__(self, array):
