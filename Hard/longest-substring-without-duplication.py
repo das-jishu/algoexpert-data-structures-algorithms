@@ -1,7 +1,7 @@
 
 # LONGEST SUBSTRING WITHOUT DUPLICATION
 
-# O(N) time, O(min(n, a)) space
+# O(N) time, O(min(n, a)) space -> a is the number of unique characters in string
 def longestSubstringWithoutDuplication(string):
     # Write your code here.
     lastSeenChar = {}
