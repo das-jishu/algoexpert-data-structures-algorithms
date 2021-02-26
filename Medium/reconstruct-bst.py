@@ -8,7 +8,7 @@ class BST:
         self.left = left
         self.right = right
 
-# O(N) ntime and space
+# O(N^2) ntime and O(H) space
 def reconstructBst(preOrderTraversalValues):
     # Write your code here.
     return reconstructTree(preOrderTraversalValues, 0, len(preOrderTraversalValues) - 1)
