@@ -34,7 +34,7 @@ def mergeTwoArrays(array1, array2):
 		index2 += 1
 	return array
 
-# O(NlogN) time and space
+# O(NlogN) time and O(N) space
 def mergeSort(array):
     # Write your code here.
     if len(array) <= 1:
