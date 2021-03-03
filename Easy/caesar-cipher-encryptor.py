@@ -24,3 +24,14 @@ def caesarCipherEncryptor(string, key):
 		result.append(alphabets[index])
 		
 	return "".join(result)
+
+# O(N) time and space
+def caesarCipherEncryptor(string, key):
+    # Write your code here.
+    result = []
+	for letter in string:
+		oldValue = ord(letter) - 97
+		newValue = (oldValue + key) % 26
+		newLetter = chr(97 + newValue)
+		result.append(newLetter)
+	return "".join(result)
