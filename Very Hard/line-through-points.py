@@ -5,8 +5,7 @@
 def lineThroughPoints(points):
     # Write your code here.
     maxPoints = 1
-	
-	for idx, p1 in enumerate(points):
+    for idx, p1 in enumerate(points):
 		slopes = {}
 		for idx2 in range(idx + 1, len(points)):
 			p2 = points[idx2]
