@@ -16,6 +16,7 @@ def convertNegatives(matrix):
 		nextPassQueue = []
 		
 		while len(currentPassQueue) > 0:
+            # pop(0) is not a linear method. To make it linear we can treat the queue as a stack and just use pop(). However, if we use the second approach to solve this (as mentioned in AlgoExpert), we need to use a deque object to make it linear. We can however safely assume this is a linear time operation.
 			row, column = currentPassQueue.pop(0)
 			adjacentPositions = getAdjacentPositions(row, column, matrix)
 			for position in adjacentPositions:
