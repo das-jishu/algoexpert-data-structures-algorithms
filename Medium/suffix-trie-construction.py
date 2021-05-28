@@ -36,3 +36,10 @@ class SuffixTrie:
 			i += 1
 			
 		return self.endSymbol in currentPosition
+		# note that the above line indicates that here we are only searching
+		# for suffix strings of the bigstring. So if our bigstring is "TASKS"
+		# and we search for "SKS" it will return True, however if we search 
+		# for "TASK", it will return False since "TASK" is not a suffix of 
+		# "TASKS". If we just want to search any substring, then the below 
+		# line needs to be used instead of the above line.
+		# return True
