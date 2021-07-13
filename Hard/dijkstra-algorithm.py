@@ -93,29 +93,30 @@ def dijkstrasAlgorithm(start, edges):
 		if distance == float('inf'):
 			distances[i] = -1
 	return distances
-
-class MinHeap:
-    def __init__(self, array):
-        # Do not edit the line below.
-		self.vertexMap = {idx: idx for idx in range(len(array))}
-        self.heap = self.buildHeap(array)
 	
+class MinHeap:
+
+	def __init__(self, array):
+		# Do not edit the line below.
+		self.vertexMap = {idx: idx for idx in range(len(array))}
+		self.heap = self.buildHeap(array)
+
 	def isEmpty(self):
 		return len(self.heap) == 0
 
 	# O(N) time and O(1) space
-    def buildHeap(self, array):
-        # Write your code here.
-        firstParent = (len(array) - 2) // 2
+	def buildHeap(self, array):
+		# Write your code here.
+		firstParent = (len(array) - 2) // 2
 		for currentIndex in reversed(range(firstParent + 1)):
 			self.siftDown(currentIndex, len(array) - 1, array)
 			#print(array)
 		return array
 
 	# O(log(n)) time and O(1) space
-    def siftDown(self, start, endIdx, heap):
-        # Write your code here.
-        childOneIdx = start * 2 + 1
+	def siftDown(self, start, endIdx, heap):
+		# Write your code here.
+		childOneIdx = start * 2 + 1
 		while childOneIdx <= endIdx:
 			childTwoIdx = start * 2 + 2 if start * 2 + 2 <= endIdx else -1
 			if childTwoIdx != -1 and heap[childTwoIdx][1] < heap[childOneIdx][1]:
@@ -130,9 +131,9 @@ class MinHeap:
 				return
 		
 	# O(log(n)) time and O(1) space
-    def siftUp(self, start, heap):
-        # Write your code here.
-        parentIdx = (start - 1) // 2
+	def siftUp(self, start, heap):
+		# Write your code here.
+		parentIdx = (start - 1) // 2
 		while start > 0 and heap[start][1] < heap[parentIdx][1]:
 			self.swap(start, parentIdx, heap)
 			start = parentIdx
@@ -144,10 +145,10 @@ class MinHeap:
 		array[i], array[j] = array[j], array[i]
 
 	# O(log(n)) time and O(1) space
-    def remove(self):
-        # Write your code here.
+	def remove(self):
+		# Write your code here.
 		self.swap(0, len(self.heap) - 1, self.heap)
-        vertex, distance = self.heap.pop()
+		vertex, distance = self.heap.pop()
 		self.vertexMap.pop(vertex)
 		self.siftDown(0, len(self.heap) - 1, self.heap)
 		return vertex, distance
