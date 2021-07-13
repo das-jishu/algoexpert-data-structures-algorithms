@@ -1,4 +1,4 @@
-# algo-expert
+# :star: algo-expert
 
 ![AlgoExpert cover image](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Images/algo-expert-cover.png?raw=true)
 
@@ -16,21 +16,35 @@ The solutions are provided in Python.
 
 **Questions:**
 You can get the questions here: [AlgoExpert Questions](https://imgur.com/a/p9Phdft) 
+<br/>
 The questions are not ordered so you might need to search for a bit. 
  
 #
 
-#### HOW TO 
+### :zap: HOW TO 
 
 You can visit this page and download the latest Python release version: [Install Python](https://www.python.org/downloads/)
+<br/>
+After you complete the download and install, you can run any solution by writing a main providing the required inputs.
 
-After you complete the download and install, you can run any solution by providing the required inputs.
+For example, in case of 'Two number sum' problem:
+```python
+if __name__=='__main__':
+	print(twoNumberSum([1,3,4,5], 7))
+```
 
-#### CONTRIBUTE, CONTRIBUTE, CONTRIBUTE!
+The code can be executed like this:
+```bash
+python easy/twoNumberSum.py
+```
 
-This is not near to perfect. So please feel free to fork this repo an add any solution in different languages or test cases here. Let's help each other grow! `:grinning:` 
+![Running a code on Python demo](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Images/demo.PNG?raw=true)
 
-####EXTRAS
+### :zap: CONTRIBUTE, CONTRIBUTE, CONTRIBUTE!
+
+This is not near to perfect. So please feel free to fork this repo an add any solution in different languages or test cases here. Let's help each other grow! :grinning:
+
+### :zap: EXTRAS
 
 I also have a collection of Leetcode questions that I keep growing. Feel free to visit and have a look. It has more than 200 questions + solutions and also basic concepts grouped by category.
 

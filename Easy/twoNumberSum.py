@@ -14,6 +14,9 @@ def twoNumberSum(array, targetSum):
 			
 	return []
 
+if __name__=='__main__':
+	print(twoNumberSum([1,3,4,5], 7))
+
 # O(N^2) time, O(1) space
 # run two for loops and compare every pair to see if it matches.
 
