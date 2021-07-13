@@ -7,7 +7,7 @@
  [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
  [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
  
-**Description:** This is a collection of all AlgoExpert Coding Interview questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
+**Description:** This is a collection of all [AlgoExpert Coding Interview](https://www.algoexpert.io/questions) questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
 
 #
 
@@ -25,9 +25,9 @@ The questions are not ordered so you might need to search for a bit.
 
 You can visit this page and download the latest Python release version: [Install Python](https://www.python.org/downloads/)
 <br/>
-After you complete the download and install, you can run any solution by writing a main providing the required inputs.
+After you complete the download and install, you can run any solution by writing a 'main' section in the file so that the compiler knows the sequence of methods to call when executing the script.
 
-For example, in case of 'Two number sum' problem:
+For example, in case of '[Two Number Sum](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/twoNumberSum.py)' problem:
 ```python
 if __name__=='__main__':
 	print(twoNumberSum([1,3,4,5], 7))
@@ -38,14 +38,20 @@ The code can be executed like this:
 python easy/twoNumberSum.py
 ```
 
+#
+
 ![Running a code on Python demo](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Images/demo.PNG?raw=true)
+
+#
 
 ### :zap: CONTRIBUTE, CONTRIBUTE, CONTRIBUTE!
 
-This is not near to perfect. So please feel free to fork this repo an add any solution in different languages or test cases here. Let's help each other grow! :grinning:
+This is not near to perfect. So please feel free to fork this repo and add any solution in different languages here. You can even add test cases to make this robust. Let's help each other grow! :grinning:
+
+#
 
 ### :zap: EXTRAS
 
-I also have a collection of Leetcode questions that I keep growing. Feel free to visit and have a look. It has more than 200 questions + solutions and also basic concepts grouped by category.
+I also have a collection of Leetcode questions that I keep growing. Feel free to visit and have a look. It has more than 200 questions + solutions and also basic concepts grouped by category. 🔽
 
 [Leetcode Material and Basics](https://github.com/das-jishu/python-stuff)
