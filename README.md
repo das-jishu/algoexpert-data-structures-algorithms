@@ -15,7 +15,7 @@
 The solutions are provided in Python.
 
 **Questions:**
-You can get the questions here: [AlgoExpert Questions](https://imgur.com/a/p9Phdft) 
+You can get the questions here: [AlgoExpert Questions](https://github.com/das-jishu/algoexpert-data-structures-algorithms/tree/master/Questions) 
 <br/>
 The questions are not ordered so you might need to search for a bit. 
  
