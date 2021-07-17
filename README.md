@@ -21,6 +21,27 @@ The questions are not ordered so you might need to search for a bit.
  
 #
 
+### ⚡ LIST OF PROBLEMS (In progress)
+
+|  | Problem Statement | Difficulty | Solution |
+| ------ | ----------------- | :--------: | -------- |
+| :star: | Two Number Sum | 🟩 | [two-number-sum.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/twoNumberSum.py) |
+| :star: | Validate Subsequence | 🟩 | [validate-subsequence.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/validate-subsequence.py) |
+| :star: | Tournament Winner | 🟩 | [tournament-winner.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/tournament-winner.py) |
+| :star: | Non-Constructible Change | 🟩 | [non-constructible-change.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/non-constructible-change.py) |
+| :star: | Find Closest Value in BST | 🟩 | [closest-in-BST.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/find-closest-value-in-BST.py) |
+| :star: | Branch Sums | 🟩 | [branch-sums.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/branch-sums.py) |
+| :star: | Node Depths | 🟩 | [node-depths.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/node-depths.py) |
+| :star: | Depth First Search | 🟩 | [depth-first-search.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/depth-first-search.py) |
+| :star: | Minimum Waiting Time | 🟩 | [minimum-waiting-time.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/minimum-waiting-time.py) |
+| :star: | Class Photos | 🟩 | [class-photos.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/class-photos.py) |
+| :star: | Remove Duplicates from Linked List | 🟩 | [remove-duplicates.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/remove-duplicates-from-linked-list.py) |
+| :star: | Nth Fibonacci | 🟩 | [nth-fibonacci.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/nth-fibonacci.py) |
+| :star: | Validate Subsequence | 🟩 | [validate-subsequence.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/validate-subsequence.py) |
+| :star: | Product Sum | 🟩 | [product-sum.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Easy/product-sum.py) |
+
+#
+
 ### :zap: HOW TO 
 
 You can visit this page and download the latest Python release version: [Install Python](https://www.python.org/downloads/)
