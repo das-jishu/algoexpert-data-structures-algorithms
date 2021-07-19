@@ -9,6 +9,16 @@
  
 **Description:** This is a collection of all [AlgoExpert Coding Interview](https://www.algoexpert.io/questions) questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
 
+<div align="center">
+	<a href="#-list-of-problems">Problem List + Solutions</a>
+ 	•<nbsp>
+    	<a href="#zap-how-to">How to</a>
+    	•<nbsp>
+    	<a href="#zap-contribute-contribute-contribute">Contribute</a>
+	•<nbsp>
+    	<a href="#zap-extras">Extras</a>
+</div>
+
 #
 
 **Solutions:**
@@ -18,6 +28,8 @@ The solutions are provided in Python.
 You can get the questions here: [AlgoExpert Questions](https://github.com/das-jishu/algoexpert-data-structures-algorithms/tree/master/Questions) 
 <br/>
 The questions are not ordered so you might need to search for a bit. 
+<br/>
+<a href="#star-algo-expert">Go to Top</a>
  
 #
 
@@ -186,6 +198,9 @@ The questions are not ordered so you might need to search for a bit.
 | :star: | Count Inversions | :black_large_square: | [count-inversions.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/count-inversions.py) || :star: | Smallest Substring Containing | :black_large_square: | [smallest-substring-containing.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/smallest-substring-containing.py) |
 | :star: | Longest Balanced Substring | :black_large_square: | [longest-balanced-substring.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/longest-balanced-substring.py) |
 
+
+<a href="#star-algo-expert">Go to Top</a>
+<br/>
 #
 
 ### :zap: HOW TO 
@@ -204,17 +219,21 @@ The code can be executed like this:
 ```bash
 python easy/twoNumberSum.py
 ```
-
+	
 #
 
 ![Running a code on Python demo](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Images/demo.PNG?raw=true)
 
+<a href="#star-algo-expert">Go to Top</a>
+<br/>
 #
 
 ### :zap: CONTRIBUTE, CONTRIBUTE, CONTRIBUTE!
 
 This is not near to perfect. So please feel free to fork this repo and add any solution in different languages here. You can even add test cases to make this robust. Let's help each other grow! :grinning:
 
+<a href="#star-algo-expert">Go to Top</a>
+<br/>
 #
 
 ### :zap: EXTRAS
