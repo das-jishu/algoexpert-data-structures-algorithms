@@ -8,6 +8,7 @@
  ![GitHub repo size](https://img.shields.io/github/repo-size/das-jishu/algoexpert-data-structures-algorithms)
  [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
  [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
+ [![Generic badge](https://img.shields.io/badge/last%20updated-25--07--2021-pink)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
  
 **Description:** This is a collection of all [AlgoExpert Coding Interview](https://www.algoexpert.io/questions) questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
 
