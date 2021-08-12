@@ -8,7 +8,7 @@
  ![GitHub repo size](https://img.shields.io/github/repo-size/das-jishu/algoexpert-data-structures-algorithms)
  [![Active](http://img.shields.io/badge/Status-Active-green.svg)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
  [![Generic badge](https://img.shields.io/badge/lang-python-yellow.svg)](https://www.python.org/)
- [![Generic badge](https://img.shields.io/badge/last%20updated-31--07--2021-pink)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
+ [![Generic badge](https://img.shields.io/badge/last%20updated-12--08--2021-pink)](https://github.com/das-jishu/algoexpert-data-structures-algorithms)
  
 **Description:** This is a collection of all [AlgoExpert Coding Interview](https://www.algoexpert.io/questions) questions that are currently available on the platform. There are solutions for each problem statement including time and space complexity. Since AlgoExpert is a paid platform, everyone doesn't have access to it or can't afford to. I hope this helps everyone to access the content and improve their problem solving skills.
 
@@ -27,18 +27,13 @@
 **Solutions:**
 The solutions are provided in Python.
 
-**Questions:**
-You can get the questions here: [AlgoExpert Questions](https://github.com/das-jishu/algoexpert-data-structures-algorithms/tree/master/Questions) 
-<br/>
-The questions are not ordered so you might need to search for a bit. You can search using the name of the problem to find it quickly. Some questions are too long to fit in a single image. So, they have been divided into parts. Do keep an eye out for those. 
-<br/>
 <a href="#star-algo-expert">Go to Top</a>
  
 #
 
 ### ⚡ LIST OF PROBLEMS 
 
-**Assessment problems + solutions** have also been added to the list of problems. These are timed assessment questions present on [AlgoExpert](https://www.algoexpert.io/assessments) to check one's problem solving ability in a well defined time constraint just as you would expect to find in an interview setting. It is recommended that you do practice these questions by setting a time limit for yourself to assess your progress. Standard time per question in an interview setting is **45 minutes**. You can find the problem statements in [here](https://github.com/das-jishu/algoexpert-data-structures-algorithms/tree/master/Questions). Search using the name of the problem to find it quickly. Check the key below to find the assessment problems. 
+**Assessment problems + solutions** have also been added to the list of problems. These are timed assessment questions present on [AlgoExpert](https://www.algoexpert.io/assessments) to check one's problem solving ability in a well defined time constraint just as you would expect to find in an interview setting. It is recommended that you do practice these questions by setting a time limit for yourself to assess your progress. Standard time per question in an interview setting is **45 minutes**. Check the key below to find the assessment problems. 
 	
 ⭐ : Coding Interview Problems 
 <br/>
