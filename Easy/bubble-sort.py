@@ -29,3 +29,16 @@ def bubbleSort(array):
 		i += 1
 		
 	return array
+
+#SOLUTION 3 Using Recursion
+def bubbleSort(array,n):
+	#Write your code here
+	#n is the length of the array
+    if n==1:
+        print(array)
+        return
+    for i in range(0,n-1):
+        if array[i]>array[i+1]:
+            array[i],array[i+1]=array[i+1],array[i]
+    bubbleSort(array,n-1)
+
