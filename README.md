@@ -1,5 +1,3 @@
-### UPDATE: [Coding Assessment problems + solutions](https://www.algoexpert.io/assessments) are now available here! Check the section below to find those.
-
 # :star: algo-expert
 
 ![AlgoExpert cover image](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Images/algo-expert-cover.png?raw=true)
@@ -32,13 +30,9 @@ The solutions are provided in Python.
 #
 
 ### ⚡ LIST OF PROBLEMS 
-
-**Assessment problems + solutions** have also been added to the list of problems. These are timed assessment questions present on [AlgoExpert](https://www.algoexpert.io/assessments) to check one's problem solving ability in a well defined time constraint just as you would expect to find in an interview setting. It is recommended that you do practice these questions by setting a time limit for yourself to assess your progress. Standard time per question in an interview setting is **45 minutes**. Check the key below to find the assessment problems. 
 	
 ⭐ : Coding Interview Problems 
 <br/>
-🗡️ : Coding Assessment Problems
-
 #### Difficulty chart:
 🟩 : Easy
 <br/>
@@ -201,25 +195,6 @@ The solutions are provided in Python.
 | :star: | Merge Sort | :black_large_square: | [merge-sort.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/merge-sort.py) |
 | :star: | Count Inversions | :black_large_square: | [count-inversions.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/count-inversions.py) || :star: | Smallest Substring Containing | :black_large_square: | [smallest-substring-containing.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/smallest-substring-containing.py) |
 | :star: | Longest Balanced Substring | :black_large_square: | [longest-balanced-substring.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Very%20Hard/longest-balanced-substring.py) |
-|  | **ASSESSMENT PROBLEMS** |  |  |
-| 🗡️ | Glob Matching | 🟥 | [glob-matching.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/glob-matching.py) |
-| 🗡️ | Inverted Bisection | 🟥 | [inverted-bisection.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/inverted-bisection.py) |
-| 🗡️ | Special Strings | 🟥 | [special-strings.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/special-strings.py) |
-| 🗡️ | Longest Streak Of Adjacent Ones | :blue_square: | [longest-streak.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/longest-streak-of-adjacent-ones.py) |
-| 🗡️ | Degrees Of Separation | 🟦 | [degrees-of-separation.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/degrees-of-separation.py) |
-| 🗡️ | Max Subsequence Dot Product | ⬛ | [max-dot-product.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/max-subsequence-dot-product.py) |
-| 🗡️ | Largest BST Size | 🟥 | [largest-bst-size.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/largest-bst-size.py) |
-| 🗡️ | Spin Rings | 🟦 | [spin-rings.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/spin-rings.py) |
-| 🗡️ | Words In Phone Number | 🟥 | [words-phone-number.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/words-in-phone-number.py) |
-| 🗡️ | Balance Index | 🟦 | [balance-index.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/balance-index.py) |
-| 🗡️ | Build Failures | 🟥 | [build-failures.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/build-failures.py) |
-| 🗡️ | Subtrees Within Range | 🟦 | [subtrees-within-range.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/subtrees-within-range.py) |
-| 🗡️ | Repeated Matrix Values | 🟦 | [repeated-matrix-values.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/repeated-matrix-values.py) |
-| 🗡️ | Reverse Alternating K Nodes | ⬛ | [reverse-k-nodes.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/reverse-alternating-k-nodes.py) |
-| 🗡️ | Count Contained Permutations | ⬛ | [count-contained-permutations.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/count-contained-permutations.py) |
-| 🗡️ | Longest Increasing Matrix Path | 🟥 | [longest-increasing-matrix-path.py](https://github.com/das-jishu/algoexpert-data-structures-algorithms/blob/master/Assessments/longest-increasing-matrix-path.py) |
-
-
 
 <a href="#star-algo-expert">Go to Top</a>
 <br/>
