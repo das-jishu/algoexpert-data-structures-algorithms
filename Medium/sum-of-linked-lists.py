@@ -1,6 +1,10 @@
 
 # SUM OF LINKED LISTS
 
+# IN THIS SCENARIO, THE HEAD OF THE LINKED LISTS (BOTH INPUT AND OUTPUT) WOULD POINT TO THE LEAST SIGNIFICANT DIGIT.
+# SO, 2 -> 6 IS ACTUALLY 62. 
+# IF INPUTS ARE 2 -> 4 and 1 -> 5, THE OUTPUT WILL BE 3 -> 9 which is correct as 42 + 51 = 93 
+
 # This is an input class. Do not edit.
 class LinkedList:
     def __init__(self, value):
